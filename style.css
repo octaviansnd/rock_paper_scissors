@@ -32,6 +32,16 @@
     width: 200px;
     height: 200px;
     background-color: darkgrey;
+    transition: background-color 0.5s ease-out 100ms;
+    transition: background-color 0.1s ease-out 50ms;
+}
+
+.container img:hover {
+    background-color: aliceblue;
+}
+
+.container img:active {
+    background-color: steelblue;
 }
   
 .info {
